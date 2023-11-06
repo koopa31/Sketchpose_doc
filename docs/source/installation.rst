@@ -11,7 +11,7 @@ First, we advise you to create a conda environment in Python 3.10, in which you 
 	conda install pip
 	python -m pip install "napari[all]" --upgrade
 
-Then, FrugalPose can be installed either directly from Napari's plugin manager, or typing:
+Then, Sketchpose can be installed either directly from Napari's plugin manager, or typing:
 
 .. code-block:: console
 

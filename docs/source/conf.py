@@ -2,7 +2,7 @@
 
 # -- Project information
 
-project = 'FrugalPose'
+project = 'Sketchpose'
 copyright = '2023, Imactiv-3D, CNRS, Université de Toulouse'
 author = 'Imactiv-3D, CNRS, Université de Toulouse'
 

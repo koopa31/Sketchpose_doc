@@ -1,7 +1,7 @@
-Welcome to FrugalPose's documentation!
+Welcome to Sketchpose's documentation!
 ===================================
 
-`FrugalPose <https://www.napari-hub.org/plugins/napari-frugalpose>`_ is a Napari plugin developed in Python, dedicated to
+`Sketchpose <https://www.napari-hub.org/plugins/napari-sketchpose>`_ is a Napari plugin developed in Python, dedicated to
 cells and bacteria segmentation.
 
 The CNN is based on `Cellpose <https://www.cellpose.org/>`_ architecture, but works for very sparse annotations. Its main advantage is that it allows
@@ -17,13 +17,13 @@ First check out the :doc:`installation` section to know how to install it.
 
 If you use this plugin, please cite the paper:
 
-Cazorla, C., Munier, N., Weiss, P., & Morin, R. (2023). FrugalPose: Scaling Down Cellpose from Massive to Sparse
+Cazorla, C., Munier, N., Weiss, P., & Morin, R. (2023). Sketchpose: Scaling Down Cellpose from Massive to Sparse
 Data.
 
 .. code-block:: bibtex
 
     @unpublished{weiss:hal-03927879,
-      TITLE = {{FrugalPose: Scaling Down Cellpose from Massive to Sparse Data}},
+      TITLE = {{Sketchpose: Scaling Down Cellpose from Massive to Sparse Data}},
       AUTHOR = {Weiss, Pierre and Cazorla, Cl{\'e}ment and Morin, Renaud},
       URL = {https://hal.inria.fr/hal-03927879},
       NOTE = {working paper or preprint},
