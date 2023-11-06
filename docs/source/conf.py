@@ -2,9 +2,9 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'FrugalPose'
+copyright = '2023, Imactiv-3D, CNRS, Université de Toulouse'
+author = 'Imactiv-3D, CNRS, Université de Toulouse
 
 release = '0.1'
 version = '0.1.0'
