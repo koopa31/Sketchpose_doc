@@ -55,7 +55,7 @@ Obviously, as explained in the paper, you are not obliged to fully annotate the 
 Moreover, the boundaries used for the computation of the distance map will be the combination of drawn boundaries and
 the intersection of cells labels and background labels. The Gif below, shows an example of partial labelling:
 
-.. figure:: https://github.com/koopa31/FrugalPose_doc/blob/main/docs/source/labelling.gif?raw=true
+.. figure:: https://github.com/koopa31/Sketchpose_doc/blob/main/docs/source/labelling.gif?raw=true
    :alt: GIF
 
 **TRICK:** When you are in drawing mode, you can drag/pan, holding space button. Hence, you are not obliged to
@@ -66,14 +66,14 @@ do not want to use for training and that you have already labelled, manually rem
 
 If you draw an entire cell, you can directly add its edges by right-double-clicking on the cell.
 
-.. figure:: https://raw.githubusercontent.com/koopa31/FrugalPose_doc/main/docs/source/right_click.gif
+.. figure:: https://raw.githubusercontent.com/koopa31/Sketchpose_doc/main/docs/source/right_click.gif
    :alt: GIF
 
 
 Moreover, if pretrained model gives good results on some cells, an option called **add cells to labels double-clicking**
 makes you earn time to directly add cells from the inference result to the groundtruth.
 
-.. figure:: https://raw.githubusercontent.com/koopa31/FrugalPose_doc/main/docs/source/double_clik.gif
+.. figure:: https://raw.githubusercontent.com/koopa31/Sketchpose_doc/main/docs/source/double_clik.gif
    :alt: GIF
 
 
@@ -85,7 +85,7 @@ The final ground truth is then formed by combining the predictions of the pretra
 modified by the user. This approach does not constitute partial annotation training, as the bounding boxes are required to be fully
 labeled within. Despite this requirement, it offers the advantage of working with smaller areas, resulting in time savings.
 
-.. figure:: https://github.com/koopa31/FrugalPose_doc/blob/main/docs/source/bbox.gif?raw=true
+.. figure:: https://github.com/koopa31/Sketchpose_doc/blob/main/docs/source/bbox.gif?raw=true
    :alt: GIF
 
 Note: You can see that undesired cells were removed by mouse-wheel-clicking on them.
@@ -123,5 +123,5 @@ they are taken into account.
 
 The gif below illustrates both ways to visualize the training progress. The training has been processed from scratch.
 
-.. figure:: https://github.com/koopa31/FrugalPose_doc/blob/main/docs/source/training.gif?raw=true
+.. figure:: https://github.com/koopa31/Sketchpose_doc/blob/main/docs/source/training.gif?raw=true
    :alt: GIF
