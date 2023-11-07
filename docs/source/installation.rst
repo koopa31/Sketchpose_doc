@@ -17,3 +17,9 @@ Then, Sketchpose can be installed either directly from Napari's plugin manager, 
 
    pip install napari_sketchpose
 
+**WARNING**:
+
+For Windows users, CUDA version of PyTorch may not be installed properly. When the plugin starts for the first time, it checks whether
+CUDA version is installed. If not, it tries to install it using light-the-torch library. If this does not work, you should re-install
+CUDA torch and torchvision versions manually, otherwise the plugin will not work properly.
+
