@@ -40,7 +40,7 @@ Data.
    This project is still under active development. We welcome any suggestions for improvement from users.
     Thank you
 
-.. figure:: https://bitbucket.org/koopa31/napari-dessin/raw/b691817e9e20a3c1c2bc69277579f6fb9b26354e/images/frugalpose.gif
+.. figure:: https://bitbucket.org/koopa31/napari-sketchpose/raw/b691817e9e20a3c1c2bc69277579f6fb9b26354e/images/frugalpose.gif
    :alt: GIF Image
 
     Image Credit: Eduard Muzhevskyi
