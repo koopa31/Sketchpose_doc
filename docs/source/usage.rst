@@ -96,12 +96,14 @@ The Training
 Setting the parameters
 ~~~~~~~~~~~~~~~~~~~
 
-An additional dialog window shows all the parameters the user can modify to train (from scratch) or retrain a model.
+The model and the channels which are going to be used for training are the one defined in the main interface.
+To train from scratch, one must choose None value for the weights.
+Once a training is launched, the value will automatically be turned into custom model whatever the initial model.
+
+
+An additional dialog window shows the other parameters the user can modify to train (from scratch) or retrain a model.
 The list of parameters is:
 
-* **Initial model**: the pretrained model to use among Omnipose's model list or your custom models, or a from scratch model (None).
-* **Chan**: First channel to segment. Usually green in pretrained models.
-* **Chan2**: Second channel to segment (optional). Red in pretrained models.
 * **Learning rate**
 * **Weight decay**
 * **Use SGD**: whether you want to use the SGD instead of RAdam.
