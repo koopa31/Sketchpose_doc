@@ -106,6 +106,7 @@ The list of parameters is:
 
 * **Learning rate**
 * **Weight decay**
+* **Epochs number**
 * **Use SGD**: whether you want to use the SGD instead of RAdam.
 
 Visualisation of training model's learning
