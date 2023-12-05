@@ -127,3 +127,14 @@ The gif below illustrates both ways to visualize the training progress. The trai
 
 .. figure:: https://github.com/koopa31/Sketchpose_doc/blob/main/docs/source/training.gif?raw=true
    :alt: GIF
+
+Visualisation of the flows
+~~~~~~~~~~~~~~~~~~~
+
+As in the original Cellpose/Omnipose interface, it is possible to visualize the flow for any inference (using Show flows tick case),
+hence while showing the training result either in the little window or in the whole image. This is a quite interesting additional information
+to understand in which parts of the image, the CNN does not succeed in producing accurate flows. It can guide the user through
+a more selective and efficient way to label the data.
+
+.. figure:: https://github.com/koopa31/Sketchpose_doc/blob/main/docs/source/flows.png?raw=true
+
