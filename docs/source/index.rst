@@ -11,26 +11,27 @@ Our method can be primarily used in two ways: either through the Napari plugin, 
 already have your dataset partially or completely annotated. The advantage of the plugin is that it allows for
 interactive work, which means you can observe the progress of training and add annotations on the fly.
 
-You can learn more about our method reading the `related paper <https://hal.inria.fr/hal-03927879>`_.
+You can learn more about our method reading the `related paper <https://hal.science/hal-04330824>`_.
 
 First check out the :doc:`installation` section to know how to install it.
 
 If you use this plugin, please cite the paper:
 
-Cazorla, C., Munier, N., Weiss, P., & Morin, R. (2023). Sketchpose: Scaling Down Cellpose from Massive to Sparse
-Data.
+Clément Cazorla, Nathanaël Munier, Renaud Morin, Pierre Weiss. Sketchpose: Learning to Segment
+Cells with Partial Annotations. 2023. ffhal-04330824f
 
 .. code-block:: bibtex
 
-    @unpublished{weiss:hal-03927879,
-      TITLE = {{Sketchpose: Scaling Down Cellpose from Massive to Sparse Data}},
-      AUTHOR = {Weiss, Pierre and Cazorla, Cl{\'e}ment and Morin, Renaud},
-      URL = {https://hal.inria.fr/hal-03927879},
+    @unpublished{cazorla:hal-04330824,
+      TITLE = {{Sketchpose: Learning to Segment Cells with Partial Annotations}},
+      AUTHOR = {Cazorla, Cl{\'e}ment and Munier, Nathana{\"e}l and Morin, Renaud and Weiss, Pierre},
+      URL = {https://hal.science/hal-04330824},
       NOTE = {working paper or preprint},
       YEAR = {2023},
-      MONTH = Jan,
-      PDF = {https://hal.inria.fr/hal-03927879/file/main_nature.pdf},
-      HAL_ID = {hal-03927879},
+      MONTH = Dec,
+      KEYWORDS = {Cellpose -Segmentation -Frugal learning -Napari -Deep learning -Distance map},
+      PDF = {https://hal.science/hal-04330824/file/sketchpose_hal.pdf},
+      HAL_ID = {hal-04330824},
       HAL_VERSION = {v1},
     }
 
