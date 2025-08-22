@@ -22,17 +22,17 @@ Cells with Partial Annotations. 2023. ffhal-04330824f
 
 .. code-block:: bibtex
 
-    @unpublished{cazorla:hal-04330824,
-      TITLE = {{Sketchpose: Learning to Segment Cells with Partial Annotations}},
-      AUTHOR = {Cazorla, Cl{\'e}ment and Munier, Nathana{\"e}l and Morin, Renaud and Weiss, Pierre},
-      URL = {https://hal.science/hal-04330824},
-      NOTE = {working paper or preprint},
-      YEAR = {2023},
-      MONTH = Dec,
-      KEYWORDS = {Cellpose -Segmentation -Frugal learning -Napari -Deep learning -Distance map},
-      PDF = {https://hal.science/hal-04330824/file/sketchpose_hal.pdf},
-      HAL_ID = {hal-04330824},
-      HAL_VERSION = {v1},
+    @article{melba:2025:016:cazorla,
+    title = "Sketchpose: Learning to Segment Cells with Partial Annotations",
+    author = "Cazorla, Clément and Munier, Nathanaël and Morin, Renaud and Weiss, Pierre",
+    journal = "Machine Learning for Biomedical Imaging",
+    volume = "3",
+    issue = "August 2025 issue",
+    year = "2025",
+    pages = "367--381",
+    issn = "2766-905X",
+    doi = "https://doi.org/10.59275/j.melba.2025-f7b3",
+    url = "https://melba-journal.org/2025:016"
     }
 
 
